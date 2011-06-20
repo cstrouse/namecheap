@@ -9,7 +9,7 @@ h2. Usage
 require 'lib/namecheap'
 
 namecheap = Namecheap.new
-namecheap.is_domain_availble? 'hashrocket.com' # => false
+namecheap.is_domain_available? 'hashrocket.com' # => false
 namecheap.is_domain_locked? 'domainassociatedwithyouraccount.com' # => true
   </code>
 </pre>
