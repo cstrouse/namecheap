@@ -1,6 +1,11 @@
 h1. Ruby Wrapper for Namecheap.com API
 
-Allow the ability to check domain availability through namecheap.com API.
+Allow the ability to use the namecheap.com API.
+
+Currently supports the ability to:
+
+* check domain availability
+* check a domain's registrar lock status
 
 h2. Usage
 
