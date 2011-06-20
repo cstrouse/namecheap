@@ -10,6 +10,7 @@ require 'lib/namecheap'
 
 namecheap = Namecheap.new
 namecheap.is_domain_availble? 'hashrocket.com' # => false
+namecheap.is_domain_locked? 'domainassociatedwithyouraccount.com' # => true
   </code>
 </pre>
 
@@ -18,3 +19,4 @@ h2. Contributors
 * "Hashrocket":http://www.hashrocket.com
 * "Corey Grusden":http://coreygrusden.com
 * "Big Tiger":http://bigtiger.github.com
+* "Casey Strouse":http://caseystrouse.com
